@@ -1,0 +1,23 @@
+[package]
+name = "gboy"
+description="a gameboy emulator, have fun :D !!!"
+version = "0.1.0"
+authors = ["quirinux"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.2"
+#rand = "0.7"
+log = "0.4.0"
+env_logger = "0.6.2"
+#crossbeam = "0.7"
+#crossbeam-utils = "0.6"
+#crossbeam-channel = "0.3"
+tui = "0.5"
+termion = "1.5"
+
+[dependencies.sdl2]
+version = "0.32"
+default-features = false
+features = ["ttf","image","gfx","mixer"]
+

@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+
+
+/roms/games/*
+!/roms/games/.keep
